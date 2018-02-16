@@ -1,3 +1,17 @@
-.jumbotron {
+.container-fluid {
     background-image: url("../images/backgrounds/landing.jpg");
+}
+.container-fluid p {
+  color: white;
+
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#PartyTime {
+  background-color: #F15A29;
 }
