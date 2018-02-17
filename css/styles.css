@@ -15,3 +15,14 @@
 #PartyTime {
   background-color: #F15A29;
 }
+.bordering {
+  border: 10px solid;
+  border-color: white;
+  padding: 15px;
+  border-image: url("images/drink1.jpg");
+  border-image: url("images/drink2.jpg");
+
+}
+.container-fluid {
+  background-image: url("../images/backgrounds/foodsBg.jpg");
+}
