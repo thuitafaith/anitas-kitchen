@@ -1,43 +1,30 @@
-.container-fluid {
-    background-image: url("../images/backgrounds/landing.jpg");
-}
-.container-fluid p {
-  color: white;
+#row1 {
+  background-image: url("../images/backgrounds/landing.jpg");
+  color:white;
+  font-size: 32px;
 
 }
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+#row2 {
+
 }
-#PartyTime {
+#row3 {
+
+}
+#row4 {
+
+}
+#row5 {
+
+}
+#row6 {
+
+}
+#row7 {
+
+}
+.row8 {
   background-color: #F15A29;
-}
-.bordering {
-  border: 10px solid;
-  border-color: white;
-  padding: 15px;
-  border-image: url("images/drink1.jpg");
-  border-image: url("images/drink2.jpg");
+  background-size:300px 100px;
 
-}
-.container2 {
-  background-image: url("../images/backgrounds/foodsBg.jpg");
-  background-repeat: no-repeat;
-}
-.well h5 {
-  color:#F15A29;
 
-}
-.container-fluid2 {
-  background-image: url("../images/backgrounds/subscribe.jpg");
-}
-.centered2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
 }
