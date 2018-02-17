@@ -28,6 +28,14 @@ body {
     padding: 4px
 
 }
+.move {
+  color:white;
+  position:relative;
+  left:0;
+  top:50%;
+  width: 100%;
+  text-align: center;
+}
 #row4 {
 
 }
