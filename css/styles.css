@@ -1,3 +1,6 @@
+body {
+  font-family: 'Kameron';font-size: 22px;
+}
 #row1 {
   background-image: url("../images/backgrounds/landing.jpg");
   color:white;
@@ -6,13 +9,33 @@
 }
 #row2 {
 
+
+
 }
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
 #row3 {
+
+}
+.pic {
+    border: 10px solid black;
+    padding: 4px
 
 }
 #row4 {
 
 }
+.center {
+  margin:0 auto;
+  width: 100px;
+}
+
 #row5 {
 
 }
