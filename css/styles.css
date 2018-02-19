@@ -106,13 +106,20 @@ body {
 
 }
 .bg{
-  background-image: url(images/backgrounds/foodsBg.jpg);
+  background-image: url(../images/backgrounds/foodsBg.jpg);
 }
 
 .img-wrapper {
-  position: relative;
- }
+  background-image: url(../images/backgrounds/subscribe.jpg);
+  height: 40vh;
+  background-size: 100% 100%;
 
+ }
+.subscribe {
+  text-align: center;
+  margin-top: 5%;
+  color: white;
+}
 .img-overlay {
   position: absolute;
   top: 0;
@@ -121,7 +128,16 @@ body {
   right: 0;
   text-align: center;
 }
+#input-email {
+  opacity: 0.3;
+  width: 120%;
 
+}
+#subscribe-btn {
+  background-color: #F15A29;
+  width: 12%;
+  margin-left: 6%;
+}
 .img-overlay:before {
   content: ' ';
   display: block;
@@ -139,5 +155,5 @@ body {
 #pinterest {
   margin-left: 2%;
   margin-right: 2%;
-  
+
 }
