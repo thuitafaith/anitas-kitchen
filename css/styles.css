@@ -79,11 +79,8 @@ body {
 }
 .move {
   color:white;
-  position:relative;
-  left:0;
-  top:50%;
-  width: 100%;
   text-align: center;
+  margin-top: 5%;
 }
 #row4 {
 
@@ -104,9 +101,12 @@ body {
 }
 .row8 {
   background-color: #F15A29;
-  background-size:300px 100px;
+  height: 50vh;
 
 
+}
+.bg{
+  background-image: url(images/backgrounds/foodsBg.jpg);
 }
 
 .img-wrapper {
@@ -127,4 +127,17 @@ body {
   display: block;
   /* adjust 'height' to position overlay content vertically */
   height: 50%;
+}
+#footer-menu {
+  vertical-align: middle;
+  font-size: 40px;
+}
+.footerlogos {
+  margin-top: 2%;
+  margin-bottom:5%;
+}
+#pinterest {
+  margin-left: 2%;
+  margin-right: 2%;
+  
 }
