@@ -33,42 +33,7 @@ aside {
 #hamburger-menu {
   list-style: none;
 
-}#open-menu, #close-menu {
-  position: absolute;
-  font-size: 200%
-
 }
-#open-menu {
-  left:5%;
-}
-#close-menu {
-  left:80%;
-  color: white;
-}
-aside {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
-  z-index: 100;
-  background-color: #F15A29;
-  position: absolute;
-  left: -100%;
-}
-#hamburger-menu {
-  list-style: none;
-
-}
-#hamburger-menu a {
-  color: white;
-}
-#hamburger-menu li {
-  padding: 15%;
-  font-size: 200%;
-  text-transform: uppercase;
-}
-
 #hamburger-menu a {
   color: white;
 }
@@ -115,6 +80,53 @@ aside {
   margin:0 auto;
   width: 100px;
 }
+#foods {
+  background-image: url("../images/backgrounds/foodsBg.jpg");
+  height: 70vh;
+  width: 100%;
+  margin-bottom: 40px;
+}
+#foods .tab{
+ position: relative;
+ border: 1px;
+ border-color: inherit;
+}
+.tabcontent {
+  background-color: white;
+  width:80%;
+  margin-right: 100px;
+}
+#move{
+  margin-left: 20%;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 80%;
+}
+.tab button {
+text-align: center;
+background-color: inherit;
+    width:70%
+    float: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: white;
+    color: #F15A29;
+}
+
+
 
 #row5 {
 
